@@ -144,7 +144,7 @@ export function Contact({
               </div>
               <div>
                 <label htmlFor="email" className="mb-2 block text-sm font-medium">
-                  Email
+                  Your Email
                 </label>
                 <input
                   id="email"
