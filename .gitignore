@@ -1,0 +1,20 @@
+node_modules
+.next
+out
+.env
+.env.local
+.env.*.local
+next-env.d.ts
+*.tsbuildinfo
+data/*.tmp
+
+# Original screenshot folders (the site uses the copies in public/projects)
+/meetLink screenshots/
+/rechnungPilot screenshots/
+/sigmagpt screenshots/
+
+# Planning notes, not part of the site
+/portfolio-prompt-plan.md
+
+# Files uploaded while running locally
+/data/uploads/

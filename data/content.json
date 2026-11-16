@@ -1,0 +1,946 @@
+{
+  "profile": {
+    "name": "Ashar Mahmood",
+    "initials": "AM",
+    "role": "Full Stack Developer & LLM Engineer",
+    "rotatingRoles": [
+      "Full Stack Developer",
+      "LLM Engineer",
+      "SaaS Builder"
+    ],
+    "tagline": "React · Next.js · TypeScript · Node.js · Python",
+    "focus": "SaaS, Real-Time Apps, RAG & AI Agents",
+    "location": "Ilmenau, Germany",
+    "locationFull": "Ilmenau, Thuringia, Germany",
+    "photo": "/ashar.webp",
+    "photoBadge": "M.Sc. @ TU Ilmenau",
+    "availability": {
+      "enabled": true,
+      "badge": "Open to work",
+      "short": "Werkstudent, up to 20 h/week",
+      "long": "Open to Werkstudent roles in software development or AI (up to 20 h/week) — on-site, hybrid or remote, and open to relocating within Germany."
+    },
+    "bio": [
+      "I build full-stack web apps and Generative AI applications, from the React/Next.js frontend down to the LLM pipeline.",
+      "I'm doing an M.Sc. in Computer & Systems Engineering at TU Ilmenau."
+    ],
+    "email": "asharmahmood714@gmail.com",
+    "github": "https://github.com/ashardeveloper",
+    "linkedin": "https://www.linkedin.com/in/asharmahmood-/",
+    "cv": "/Ashar-Mahmood-CV.pdf",
+    "languages": [
+      {
+        "id": "51f8aacb",
+        "name": "English",
+        "level": "C1",
+        "note": "IELTS 7.0"
+      },
+      {
+        "id": "a146f06e",
+        "name": "German",
+        "level": "A2",
+        "note": "conversational"
+      }
+    ],
+    "stats": [
+      {
+        "id": "ada6488f",
+        "value": 6,
+        "suffix": "",
+        "label": "Featured projects"
+      },
+      {
+        "id": "3a0dc4c3",
+        "value": 8,
+        "suffix": "",
+        "label": "LLM apps built"
+      },
+      {
+        "id": "37ce9156",
+        "value": 50,
+        "suffix": "+",
+        "label": "Client orders delivered"
+      },
+      {
+        "id": "5e92b204",
+        "value": 27,
+        "suffix": "",
+        "label": "Public repositories"
+      }
+    ],
+    "learning": [
+      "LLM Evals (Ragas, DeepEval)",
+      "AI Agents & MCP (LangGraph)",
+      "LLMOps (Langfuse)",
+      "AWS Bedrock"
+    ]
+  },
+  "sections": {
+    "about": {
+      "visible": true,
+      "eyebrow": "About",
+      "title": "From the frontend down to the LLM pipeline",
+      "lead": ""
+    },
+    "skills": {
+      "visible": true,
+      "eyebrow": "Skills",
+      "title": "The stack I build with",
+      "lead": "Full-stack web development and LLM engineering, plus the tooling to test, ship and run it."
+    },
+    "experience": {
+      "visible": true,
+      "eyebrow": "Experience",
+      "title": "Professional experience",
+      "lead": ""
+    },
+    "projects": {
+      "visible": true,
+      "eyebrow": "Projects",
+      "title": "Featured projects",
+      "lead": "Production-style applications — each with a case study covering the problem, the solution and the engineering behind it."
+    },
+    "contact": {
+      "visible": true,
+      "eyebrow": "Contact",
+      "title": "Let's work together",
+      "lead": ""
+    }
+  },
+  "skills": {
+    "groups": [
+      {
+        "id": "79a5af17",
+        "title": "Frontend",
+        "items": [
+          "React.js",
+          "Next.js (App Router)",
+          "TypeScript",
+          "JavaScript (ES6+)",
+          "HTML",
+          "CSS",
+          "Tailwind CSS",
+          "Material UI",
+          "CSS Modules",
+          "React Router",
+          "Vite",
+          "EJS",
+          "Redux",
+          "SASS/SCSS"
+        ]
+      },
+      {
+        "id": "0e05d1fd",
+        "title": "Backend",
+        "items": [
+          "Node.js",
+          "Express.js",
+          "REST APIs",
+          "Server Actions",
+          "Socket.IO",
+          "WebSockets",
+          "Auth.js",
+          "Passport.js",
+          "JWT authentication",
+          "bcrypt",
+          "Joi validation"
+        ]
+      },
+      {
+        "id": "d524bed4",
+        "title": "AI / LLM",
+        "items": [
+          "Python",
+          "OpenAI API",
+          "Hugging Face Transformers",
+          "LangChain",
+          "Gradio",
+          "RAG",
+          "Embeddings",
+          "QLoRA fine-tuning",
+          "Function calling",
+          "AI agents",
+          "Multi-agent systems",
+          "Prompt engineering"
+        ]
+      },
+      {
+        "id": "709b848b",
+        "title": "Databases",
+        "items": [
+          "PostgreSQL",
+          "MongoDB",
+          "Prisma ORM",
+          "Mongoose",
+          "Neon",
+          "Database design"
+        ]
+      },
+      {
+        "id": "0cb85f3b",
+        "title": "Real-time",
+        "items": [
+          "WebRTC (STUN/TURN)",
+          "Socket.IO signaling"
+        ]
+      },
+      {
+        "id": "21760296",
+        "title": "DevOps & tools",
+        "items": [
+          "Git",
+          "GitHub",
+          "Docker",
+          "Docker Compose",
+          "GitHub Actions (CI/CD)",
+          "Vercel",
+          "Render",
+          "Cloudinary",
+          "Mapbox"
+        ]
+      },
+      {
+        "id": "8b3253b4",
+        "title": "Testing",
+        "items": [
+          "Vitest (unit + DB integration tests)",
+          "Node.js test scripts"
+        ]
+      },
+      {
+        "id": "0e5d3512",
+        "title": "Other",
+        "items": [
+          "Chrome Extensions (Manifest V3)",
+          "C# native messaging host",
+          "FFmpeg",
+          "PDFKit",
+          "PowerShell scripting"
+        ]
+      }
+    ],
+    "cloud": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "Python",
+      "PostgreSQL",
+      "MongoDB",
+      "Prisma",
+      "Docker",
+      "LangChain",
+      "OpenAI",
+      "Hugging Face",
+      "RAG",
+      "QLoRA",
+      "WebRTC",
+      "Socket.IO",
+      "Tailwind",
+      "Express",
+      "CI/CD",
+      "Vitest",
+      "Gradio",
+      "AI Agents",
+      "Git",
+      "Redux"
+    ]
+  },
+  "experience": [
+    {
+      "id": "e3686d48",
+      "title": "Full Stack Web Developer",
+      "company": "Upwork (Freelance)",
+      "period": "May 2024 – Present",
+      "summary": "I build full-stack web applications and SaaS products for clients, from the frontend to the backend.",
+      "bullets": [
+        "Develop SaaS web applications with React.js, Next.js, TypeScript and Node.js",
+        "Build REST APIs and integrate MongoDB and PostgreSQL databases with frontend applications",
+        "Create responsive, reusable UI components and handle debugging, performance optimization and deployment"
+      ],
+      "stack": [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "REST APIs",
+        "MongoDB",
+        "PostgreSQL"
+      ],
+      "metrics": []
+    },
+    {
+      "id": "8cdcf5af",
+      "title": "Digital Marketing Specialist",
+      "company": "Fiverr (Freelance)",
+      "period": "May 2019 – Nov 2024",
+      "summary": "I helped eCommerce businesses grow through paid social campaigns, using data and my web development skills to measure and improve results.",
+      "bullets": [
+        "Implemented Meta Pixel and Google tracking on client websites with custom tracking code",
+        "Managed Meta Ads campaigns with 19.31x ROAS and 17,470 leads at £1.17 CPL",
+        "Delivered 50+ client orders covering paid social, SEO, retargeting, conversion tracking and reporting"
+      ],
+      "stack": [
+        "Meta Pixel",
+        "Google tracking",
+        "Custom JavaScript tracking code",
+        "Meta Ads",
+        "SEO"
+      ],
+      "metrics": [
+        {
+          "id": "a250f801",
+          "value": "19.31x",
+          "label": "ROAS"
+        },
+        {
+          "id": "11de13a9",
+          "value": "17,470",
+          "label": "leads"
+        },
+        {
+          "id": "c02cea00",
+          "value": "50+",
+          "label": "orders"
+        }
+      ]
+    },
+    {
+      "id": "0d6d6603",
+      "title": "Data Analyst Intern",
+      "company": "Q-Lead Global Consultant, Islamabad",
+      "period": "Feb 2018 – May 2018",
+      "summary": "",
+      "bullets": [
+        "Supported business-process analysis by collecting, cleaning and structuring datasets, improving reporting quality and the documentation of stakeholder requirements"
+      ],
+      "stack": [],
+      "metrics": []
+    }
+  ],
+  "education": [
+    {
+      "id": "6d849ce0",
+      "school": "Technische Universität Ilmenau, Germany",
+      "degree": "M.Sc. Computer & Systems Engineering",
+      "period": "Oct 2024 – Present"
+    },
+    {
+      "id": "7ebf4f6c",
+      "school": "COMSATS University Islamabad, Pakistan",
+      "degree": "B.Sc. Software Engineering",
+      "period": "Sep 2015 – Mar 2019"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "3a0fc871",
+      "title": "Become an LLM Engineer in 8 Weeks: Generative AI, RAG, LoRA and AI Agents",
+      "issuer": "Ed Donner",
+      "date": "Completed"
+    },
+    {
+      "id": "74eb9b07",
+      "title": "Certified React Developer",
+      "issuer": "Udemy",
+      "date": "Jan 2022"
+    },
+    {
+      "id": "b8729401",
+      "title": "3rd Position, COMSATS Projects & Career Expo 2018",
+      "issuer": "Recognized by IBM for innovation in Android development",
+      "date": "2018"
+    },
+    {
+      "id": "b1ad4328",
+      "title": "IELTS 7.0",
+      "issuer": "British Council",
+      "date": "Jan 2024"
+    }
+  ],
+  "projects": [
+    {
+      "id": "456a5fde",
+      "slug": "rechnungspilot",
+      "published": true,
+      "flagship": true,
+      "title": "RechnungsPilot DE",
+      "subtitle": "SaaS Invoice Management",
+      "oneLiner": "SaaS-style invoicing workspace for German freelancers and small businesses.",
+      "year": "2026",
+      "github": "https://github.com/ashardeveloper/rechnungspilot",
+      "live": "https://rechnungspilot-ten.vercel.app",
+      "accent": {
+        "from": "#2563eb",
+        "to": "#22d3ee"
+      },
+      "problem": "Small businesses need to create invoices, manage customers, track status and export documents without a complex accounting system.",
+      "solution": "Customer master data feeds invoices built from structured forms. Each invoice moves through a lifecycle (draft → review-ready → issued → paid) with VAT logic, and issued or paid invoices are locked. Issued invoices export as PDF and as a technical XRechnung XML draft, with an audit history, configurable numbering and a sender profile.",
+      "engineering": [
+        "Server actions handle user-facing mutations",
+        "Repository modules isolate persistence logic",
+        "Domain modules hold calculations, lifecycle rules, due-status logic and export mapping",
+        "Tests cover domain rules and database authorization behavior",
+        "CI runs lint, unit tests, DB integration tests and a production build",
+        "CD deploys to Vercel after CI passes"
+      ],
+      "features": [
+        "Login-protected workspace",
+        "Dashboard overview",
+        "Invoice search, filters and metrics",
+        "Archive and restore",
+        "Customer directory with search",
+        "Customer-specific invoices",
+        "PDF download",
+        "XRechnung XML draft export",
+        "Audit timeline",
+        "Sender profile and numbering settings"
+      ],
+      "apps": [],
+      "stack": [
+        "Next.js App Router",
+        "TypeScript",
+        "Tailwind CSS",
+        "Prisma",
+        "PostgreSQL (Neon)",
+        "Auth.js",
+        "Vitest",
+        "PDFKit",
+        "Docker",
+        "Docker Compose",
+        "GitHub Actions",
+        "Vercel"
+      ],
+      "cardStack": [
+        "Next.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Prisma",
+        "Docker",
+        "CI/CD"
+      ],
+      "screenshots": [
+        {
+          "id": "fc5d9c61",
+          "src": "/projects/rechnungspilot/dashboard.png",
+          "width": 1448,
+          "height": 1086,
+          "caption": "Dashboard"
+        },
+        {
+          "id": "b221b51e",
+          "src": "/projects/rechnungspilot/login.png",
+          "width": 1122,
+          "height": 1402,
+          "caption": "Login"
+        },
+        {
+          "id": "16e269d9",
+          "src": "/projects/rechnungspilot/invoices.png",
+          "width": 1448,
+          "height": 1086,
+          "caption": "Invoices"
+        },
+        {
+          "id": "98b12f16",
+          "src": "/projects/rechnungspilot/invoice-detail.png",
+          "width": 1122,
+          "height": 1402,
+          "caption": "Invoice detail"
+        },
+        {
+          "id": "fa4d9fbb",
+          "src": "/projects/rechnungspilot/new-invoice.png",
+          "width": 1122,
+          "height": 1402,
+          "caption": "New invoice"
+        },
+        {
+          "id": "10ffa17f",
+          "src": "/projects/rechnungspilot/customers.png",
+          "width": 1448,
+          "height": 1086,
+          "caption": "Customers"
+        },
+        {
+          "id": "fa7cbb0e",
+          "src": "/projects/rechnungspilot/customer-detail.png",
+          "width": 1122,
+          "height": 1402,
+          "caption": "Customer detail"
+        },
+        {
+          "id": "e167438c",
+          "src": "/projects/rechnungspilot/new-customer.png",
+          "width": 1122,
+          "height": 1402,
+          "caption": "New customer"
+        },
+        {
+          "id": "795dd282",
+          "src": "/projects/rechnungspilot/archive-invoices.png",
+          "width": 1672,
+          "height": 941,
+          "caption": "Archived invoices"
+        },
+        {
+          "id": "3a84d367",
+          "src": "/projects/rechnungspilot/settings.png",
+          "width": 1448,
+          "height": 1086,
+          "caption": "Settings"
+        }
+      ],
+      "note": "Portfolio MVP — not certified accounting software. The XRechnung export is a technical XML draft for demonstration.",
+      "todos": []
+    },
+    {
+      "id": "df957c06",
+      "slug": "llm-engineering",
+      "published": true,
+      "flagship": false,
+      "title": "LLM Engineering Portfolio",
+      "subtitle": "8 Generative AI Apps",
+      "oneLiner": "Eight LLM applications covering RAG, agents, function calling and fine-tuning.",
+      "year": "2026",
+      "github": "",
+      "live": "",
+      "accent": {
+        "from": "#7c3aed",
+        "to": "#22d3ee"
+      },
+      "problem": "",
+      "solution": "",
+      "engineering": [],
+      "features": [],
+      "apps": [
+        {
+          "id": "baef1e82",
+          "name": "RAG knowledge assistant",
+          "detail": "Answers company questions from internal documents.",
+          "metric": "",
+          "highlight": true
+        },
+        {
+          "id": "ab979719",
+          "name": "Multi-modal airline support agent",
+          "detail": "Gradio UI with function calling, text, audio and image.",
+          "metric": "",
+          "highlight": true
+        },
+        {
+          "id": "902e480a",
+          "name": "QLoRA fine-tuned price predictor",
+          "detail": "Open-source LLM fine-tuned for product price prediction, benchmarked against frontier models.",
+          "metric": "",
+          "highlight": true
+        },
+        {
+          "id": "3963529c",
+          "name": "Autonomous multi-agent deal finder",
+          "detail": "Extends the price predictor into a deal-finding system with notifications.",
+          "metric": "",
+          "highlight": true
+        },
+        {
+          "id": "63b27ad3",
+          "name": "Web-scraping brochure generator",
+          "detail": "",
+          "metric": "",
+          "highlight": false
+        },
+        {
+          "id": "d2b9bc43",
+          "name": "Audio-to-meeting-minutes tool",
+          "detail": "",
+          "metric": "",
+          "highlight": false
+        },
+        {
+          "id": "d9ef70ca",
+          "name": "Python-to-C++ code optimizer",
+          "detail": "Up to 60,000x faster on benchmark code.",
+          "metric": "60,000x",
+          "highlight": false
+        }
+      ],
+      "stack": [
+        "Python",
+        "OpenAI API",
+        "Hugging Face Transformers",
+        "LangChain",
+        "Gradio",
+        "RAG",
+        "Embeddings",
+        "QLoRA",
+        "Function calling",
+        "AI agents"
+      ],
+      "cardStack": [
+        "Python",
+        "LangChain",
+        "Hugging Face",
+        "RAG",
+        "QLoRA",
+        "AI Agents"
+      ],
+      "screenshots": [],
+      "note": "",
+      "todos": [
+        "Add the GitHub repository URL",
+        "Add the eighth app",
+        "Add screenshots (one per highlighted app, plus any benchmark chart)",
+        "Optional: model names and benchmark numbers per app"
+      ]
+    },
+    {
+      "id": "2d80f94f",
+      "slug": "meetlink",
+      "published": true,
+      "flagship": false,
+      "title": "MeetLink",
+      "subtitle": "Real-Time Video Conferencing",
+      "oneLiner": "Full-stack video meetings with WebRTC, chat and screen sharing.",
+      "year": "",
+      "github": "https://github.com/ashardeveloper/realtime-video-conferencing",
+      "live": "https://apna-zoom-frontend-wzqw.onrender.com/",
+      "accent": {
+        "from": "#1d4ed8",
+        "to": "#818cf8"
+      },
+      "problem": "Basic WebRTC apps work locally but fail across mobile data and different networks, and suffer from duplicate tiles, black video and poor cleanup.",
+      "solution": "Socket.IO signaling combined with WebRTC peer connections, TURN/STUN support, responsive layouts, real media controls, device selection, participant state syncing and clean disconnect handling.",
+      "engineering": [
+        "Stable peer-connection handling",
+        "Duplicate-stream prevention",
+        "Remote media state synchronization",
+        "Mobile-to-desktop connectivity via TURN, with credentials served by the backend so the API key is never exposed",
+        "Responsive grids for 2, 3, 4 and many participants"
+      ],
+      "features": [
+        "Join by meeting code",
+        "Guest flow",
+        "Login and registration",
+        "Meeting history",
+        "Camera preview lobby",
+        "Camera and mic toggles",
+        "Device switching",
+        "Screen sharing",
+        "Real-time chat",
+        "Camera-off avatars",
+        "Mute indicators"
+      ],
+      "apps": [],
+      "stack": [
+        "React",
+        "React Router",
+        "Material UI",
+        "Socket.IO",
+        "WebRTC",
+        "CSS Modules",
+        "Axios",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Mongoose",
+        "bcrypt",
+        "Render"
+      ],
+      "cardStack": [
+        "React",
+        "WebRTC",
+        "Socket.IO",
+        "Node.js",
+        "MongoDB"
+      ],
+      "screenshots": [
+        {
+          "id": "c29342c4",
+          "src": "/projects/meetlink/meetlink.png",
+          "width": 1122,
+          "height": 1402,
+          "caption": "MeetLink overview"
+        },
+        {
+          "id": "60063b77",
+          "src": "/projects/meetlink/landingpage.png",
+          "width": 1122,
+          "height": 1402,
+          "caption": "Landing page"
+        },
+        {
+          "id": "2a7a78d4",
+          "src": "/projects/meetlink/meetinglobby.png",
+          "width": 1122,
+          "height": 1402,
+          "caption": "Meeting lobby"
+        },
+        {
+          "id": "36b082a0",
+          "src": "/projects/meetlink/meetingroom.png",
+          "width": 1122,
+          "height": 1402,
+          "caption": "Meeting room"
+        },
+        {
+          "id": "090c64fd",
+          "src": "/projects/meetlink/meetinghistory.png",
+          "width": 1122,
+          "height": 1402,
+          "caption": "Meeting history"
+        },
+        {
+          "id": "212b898b",
+          "src": "/projects/meetlink/auth.png",
+          "width": 1122,
+          "height": 1402,
+          "caption": "Login and signup"
+        }
+      ],
+      "note": "",
+      "todos": []
+    },
+    {
+      "id": "b4d17393",
+      "slug": "sigma-gpt",
+      "published": true,
+      "flagship": false,
+      "title": "SigmaGPT",
+      "subtitle": "AI-Powered Chat Application",
+      "oneLiner": "ChatGPT-style AI chat with saved threads, guest mode and markdown replies.",
+      "year": "",
+      "github": "https://github.com/ashardeveloper/sigma-gpt",
+      "live": "https://sigma-gpt-frontend-v2zn.onrender.com/",
+      "accent": {
+        "from": "#0ea5e9",
+        "to": "#a78bfa"
+      },
+      "problem": "Most AI chat demos send one prompt and show one answer — no auth, saved conversations, thread management or polished rendering.",
+      "solution": "A product-style chat: sign up or continue as a guest, keep persistent threads, rename or delete them, get AI-generated titles, and read replies rendered as markdown with syntax-highlighted code, copy actions and a dark/light theme. The full conversation context is sent with each message.",
+      "engineering": [
+        "JWT authentication",
+        "MongoDB models for users, threads and messages",
+        "Protected routes for saved chat history",
+        "OpenAI chat completions with conversation context memory",
+        "OpenAI function calling with structured JSON output",
+        "CSS-variable theme system",
+        "Responsive sidebar drawer",
+        "Safe UX for destructive actions"
+      ],
+      "features": [
+        "Signup, login and guest mode",
+        "Persistent chat threads",
+        "AI-generated thread titles",
+        "Inline rename and delete with confirmation",
+        "Markdown with syntax-highlighted code",
+        "Copy code and full messages",
+        "Dark/light theme",
+        "Responsive desktop and mobile UI"
+      ],
+      "apps": [],
+      "stack": [
+        "React",
+        "Vite",
+        "React Router",
+        "CSS Modules",
+        "Express.js",
+        "MongoDB",
+        "Mongoose",
+        "JWT",
+        "bcrypt",
+        "OpenAI API",
+        "React Markdown",
+        "rehype-highlight",
+        "Render"
+      ],
+      "cardStack": [
+        "React",
+        "Express.js",
+        "MongoDB",
+        "OpenAI API",
+        "JWT"
+      ],
+      "screenshots": [
+        {
+          "id": "b167f7a5",
+          "src": "/projects/sigma-gpt/markdown.png",
+          "width": 1254,
+          "height": 1254,
+          "caption": "Markdown and code responses"
+        },
+        {
+          "id": "17f680db",
+          "src": "/projects/sigma-gpt/login.png",
+          "width": 1254,
+          "height": 1254,
+          "caption": "Login"
+        },
+        {
+          "id": "048d37a7",
+          "src": "/projects/sigma-gpt/guest.png",
+          "width": 1254,
+          "height": 1254,
+          "caption": "Guest mode"
+        },
+        {
+          "id": "fca344f9",
+          "src": "/projects/sigma-gpt/rename-delete.png",
+          "width": 1254,
+          "height": 1254,
+          "caption": "Rename and delete threads"
+        },
+        {
+          "id": "184a504f",
+          "src": "/projects/sigma-gpt/dark-mode.png",
+          "width": 1254,
+          "height": 1254,
+          "caption": "Dark mode and profile controls"
+        }
+      ],
+      "note": "",
+      "todos": []
+    },
+    {
+      "id": "a0992449",
+      "slug": "video-downloader",
+      "published": true,
+      "flagship": false,
+      "title": "Video Downloader",
+      "subtitle": "Chrome Extension",
+      "oneLiner": "Chrome MV3 extension and local FFmpeg helper that saves detected browser video streams as MP4.",
+      "year": "",
+      "github": "https://github.com/ashardeveloper/video-downloader-extension",
+      "live": "",
+      "accent": {
+        "from": "#f59e0b",
+        "to": "#ef4444"
+      },
+      "problem": "Course access was expiring before I could finish the lectures, and free downloader extensions limit downloads or require premium.",
+      "solution": "The extension detects MP4, HLS and DASH streams while a video plays, shows the title, format and quality in a popup, and hands the selected stream to a local native host. FFmpeg then saves an MP4 with a clean filename, with progress and duplicate tracking.",
+      "engineering": [
+        "MV3 service worker coordinates detection, state and native messaging",
+        "Content scripts read the page's video context",
+        "Site-specific detectors for Wistia, Udemy, Facebook, Instagram and TikTok",
+        "DASH audio/video pairing",
+        "C# native helper isolates filesystem access and FFmpeg execution",
+        "Simulated tests for detectors and edge cases"
+      ],
+      "features": [
+        "Detects MP4, HLS and DASH streams",
+        "Format and quality selection",
+        "Download progress as a percentage",
+        "Rename before download",
+        "Private duplicate tracking",
+        "Local-only workflow with no external backend"
+      ],
+      "apps": [],
+      "stack": [
+        "Chrome Extension Manifest V3",
+        "JavaScript",
+        "C# native messaging host",
+        "FFmpeg",
+        "PowerShell",
+        "Node.js test scripts"
+      ],
+      "cardStack": [
+        "Manifest V3",
+        "JavaScript",
+        "C#",
+        "FFmpeg"
+      ],
+      "screenshots": [
+        {
+          "id": "0dccf4ce",
+          "src": "/projects/video-downloader/video-downloader-extension.webp",
+          "width": 1122,
+          "height": 1402,
+          "caption": "Video Downloader Extension"
+        }
+      ],
+      "note": "Works only with videos already available in the user's own browser session. It does not bypass DRM or protected content.",
+      "todos": []
+    },
+    {
+      "id": "903cecf0",
+      "slug": "roamstay",
+      "published": true,
+      "flagship": false,
+      "title": "RoamStay",
+      "subtitle": "Full-Stack Rental Platform",
+      "oneLiner": "Full-stack rental platform for property listings and user interactions.",
+      "year": "",
+      "github": "https://github.com/ashardeveloper/roamstay-fullstack-rental",
+      "live": "",
+      "accent": {
+        "from": "#10b981",
+        "to": "#06b6d4"
+      },
+      "problem": "",
+      "solution": "",
+      "engineering": [],
+      "features": [
+        "Property listings: create, view, edit and delete",
+        "Reviews on listings",
+        "Signup and login",
+        "Image uploads to Cloudinary",
+        "Map locations with Mapbox",
+        "Server-side validation with Joi"
+      ],
+      "apps": [],
+      "stack": [
+        "Node.js",
+        "Express 5",
+        "MongoDB",
+        "Mongoose",
+        "EJS (ejs-mate)",
+        "Passport.js (local strategy)",
+        "express-session + connect-mongo",
+        "Joi validation",
+        "Multer + Cloudinary",
+        "Mapbox",
+        "MVC structure"
+      ],
+      "cardStack": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "EJS",
+        "Mapbox"
+      ],
+      "screenshots": [],
+      "note": "",
+      "todos": [
+        "Confirm the feature list",
+        "Add a live demo link if deployed",
+        "Add screenshots (home, listing detail, new listing, auth)",
+        "Add problem, solution and engineering notes"
+      ]
+    },
+    {
+      "id": "0d9085f3",
+      "slug": "new-project-0d90",
+      "published": false,
+      "flagship": false,
+      "title": "New project",
+      "subtitle": "",
+      "oneLiner": "",
+      "year": "2026",
+      "github": "",
+      "live": "",
+      "accent": {
+        "from": "#8b5cf6",
+        "to": "#22d3ee"
+      },
+      "problem": "",
+      "solution": "",
+      "engineering": [],
+      "features": [],
+      "apps": [],
+      "stack": [],
+      "cardStack": [],
+      "screenshots": [],
+      "note": "",
+      "todos": []
+    }
+  ]
+}
