@@ -2,6 +2,8 @@
 
 The portfolio of a Full Stack Developer and LLM Engineer, built as a real product rather than a static page: an animated public site, plus a custom admin dashboard that controls every section of it. No template, no page builder and no third-party CMS.
 
+**Live site:** [ashardev.com](https://ashardev.com)
+
 **Built with** Next.js 15 (App Router) · React 19 · TypeScript · Tailwind CSS 4 · Framer Motion · Three.js · MySQL · Zod
 
 ![Home page hero with portrait and animated particle background](docs/screenshots/home-hero.png)
