@@ -55,7 +55,7 @@ export default async function ProjectPage({ params }: Props) {
 
   return (
     <article className="mx-auto w-full max-w-[68rem] px-5 pb-20 pt-28 md:px-8 md:pt-32">
-      <Link href="/#projects" className="inline-flex items-center gap-2 text-sm text-muted hover:text-ink">
+      <Link href="/projects" className="inline-flex items-center gap-2 text-sm text-muted hover:text-ink">
         <ArrowLeft width={15} height={15} />
         All projects
       </Link>

@@ -98,7 +98,8 @@
       "visible": true,
       "eyebrow": "Projects",
       "title": "Featured projects",
-      "lead": "Production-style applications — each with a case study covering the problem, the solution and the engineering behind it."
+      "lead": "Production-style applications — each with a case study covering the problem, the solution and the engineering behind it.",
+      "homeLimit": 4
     },
     "contact": {
       "visible": true,

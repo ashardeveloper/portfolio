@@ -160,7 +160,7 @@ export const certificationFields: FieldDef[] = [
   },
 ];
 
-const sectionGroup = (key: string, label: string): FieldDef => ({
+const sectionGroup = (key: string, label: string, extra: FieldDef[] = []): FieldDef => ({
   type: "group",
   key,
   label,
@@ -169,6 +169,7 @@ const sectionGroup = (key: string, label: string): FieldDef => ({
     { type: "text", key: "eyebrow", label: "Small label", half: true },
     { type: "text", key: "title", label: "Heading", half: true },
     { type: "textarea", key: "lead", label: "Intro text", rows: 2, help: "Optional." },
+    ...extra,
   ],
 });
 
@@ -176,7 +177,15 @@ export const sectionsFields: FieldDef[] = [
   sectionGroup("about", "About"),
   sectionGroup("skills", "Skills"),
   sectionGroup("experience", "Experience, education and certifications"),
-  sectionGroup("projects", "Projects"),
+  sectionGroup("projects", "Projects", [
+    {
+      type: "number",
+      key: "homeLimit",
+      label: "Projects on the home page",
+      half: true,
+      help: "Counts the flagship. The rest appear on the All projects page. 4 or 7 fill the rows evenly on a desktop screen.",
+    },
+  ]),
   sectionGroup("contact", "Contact"),
 ];
 

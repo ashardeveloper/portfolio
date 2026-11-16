@@ -64,11 +64,21 @@ const sectionSchema = z.object({
   lead: text(400),
 });
 
+/** The projects section also controls how many projects the home page shows before "View all". */
+const projectsSectionSchema = sectionSchema.extend({
+  homeLimit: z
+    .number({ error: "Projects on the home page must be a number." })
+    .int()
+    .min(1, "Show at least 1 project on the home page.")
+    .max(30, "Show at most 30 projects on the home page.")
+    .default(4),
+});
+
 export const sectionsSchema = z.object({
   about: sectionSchema,
   skills: sectionSchema,
   experience: sectionSchema,
-  projects: sectionSchema,
+  projects: projectsSectionSchema,
   contact: sectionSchema,
 });
 

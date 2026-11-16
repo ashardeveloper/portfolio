@@ -24,7 +24,7 @@ The portfolio of a Full Stack Developer and LLM Engineer, built as a real produc
 | About | Bio, animated stat counters, languages and current learning |
 | Skills | Grouped skills, plus an interactive 3D cloud of skill labels |
 | Experience | A timeline of roles with highlights, tech stack and key metrics |
-| Projects | Cards that tilt towards the cursor, with one project featured as the flagship |
+| Projects | Cards that tilt towards the cursor, with one project featured as the flagship. The home page shows a set number, and a "View all projects" button leads to a page listing every project |
 | Case studies | A page per project: problem, solution, engineering notes, features, stack, and a screenshot gallery with a full-screen lightbox |
 | Contact | A form that emails the message straight to my inbox, with the visitor set as the reply-to address |
 
@@ -56,7 +56,7 @@ A password-protected control panel at `/admin`.
 | Experience | Roles, bullet points, tech stack and metrics |
 | Education and certifications | Entries for each |
 | Projects | Create, edit, delete, reorder, publish or hide, choose the flagship, write the full case study and upload screenshots |
-| Section headings | Show or hide whole sections and edit their headings |
+| Section headings | Show or hide whole sections, edit their headings, and set how many projects the home page shows |
 
 How it is built:
 

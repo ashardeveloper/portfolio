@@ -24,7 +24,7 @@ export default async function Home() {
           section={sections.experience}
         />
       )}
-      {sections.projects.visible && <Projects projects={visibleProjects(content)} section={sections.projects} />}
+      {sections.projects.visible && <Projects projects={visibleProjects(content)} section={sections.projects} limit={sections.projects.homeLimit} />}
       {sections.contact.visible && <Contact profile={profile} section={sections.contact} canSend={mailConfigured()} />}
     </>
   );

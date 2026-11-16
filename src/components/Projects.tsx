@@ -118,7 +118,14 @@ function Card({ project }: { project: Project }) {
   return (
     <Tilt className="h-full">
       <article className="glass flex h-full flex-col overflow-hidden rounded-3xl transition-colors group-hover:border-violet/50">
-        <ProjectCover project={project} sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw" className="aspect-[16/10]" />
+        <div className="relative">
+          <ProjectCover project={project} sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw" className="aspect-[16/10]" />
+          {project.flagship && (
+            <span className="absolute left-3 top-3 rounded-full border border-white/15 bg-bg/80 px-2.5 py-1 font-mono text-[0.65rem] uppercase tracking-[0.18em] text-cyan backdrop-blur">
+              Flagship
+            </span>
+          )}
+        </div>
         <div className="flex flex-1 flex-col p-6">
           <p className="font-mono text-[0.7rem] uppercase tracking-[0.18em] text-cyan">{project.subtitle}</p>
           <h3 className="mt-2 font-display text-2xl font-bold tracking-tight">{project.title}</h3>
@@ -143,10 +150,33 @@ function Card({ project }: { project: Project }) {
   );
 }
 
-export function Projects({ projects, section }: { projects: Project[]; section: SectionCopy }) {
+/** Responsive grid of project cards, shared by the home section and the All projects page. */
+export function ProjectGrid({ projects, className = "" }: { projects: Project[]; className?: string }) {
+  return (
+    <div className={`grid gap-6 sm:grid-cols-2 lg:grid-cols-3 ${className}`}>
+      {projects.map((p, i) => (
+        <Reveal key={p.slug} delay={(i % 3) * 0.08} className="h-full">
+          <Card project={p} />
+        </Reveal>
+      ))}
+    </div>
+  );
+}
+
+export function Projects({
+  projects,
+  section,
+  limit,
+}: {
+  projects: Project[];
+  section: SectionCopy;
+  /** How many projects to show here, counting the flagship. The rest live on /projects. */
+  limit: number;
+}) {
   if (projects.length === 0) return null;
   const flagship = projects.find((p) => p.flagship) ?? projects[0];
-  const rest = projects.filter((p) => p !== flagship);
+  const rest = projects.filter((p) => p !== flagship).slice(0, Math.max(0, limit - 1));
+  const hidden = projects.length - 1 - rest.length;
 
   return (
     <section id="projects" className="section">
@@ -161,13 +191,22 @@ export function Projects({ projects, section }: { projects: Project[]; section: 
         <Flagship project={flagship} />
       </Reveal>
 
-      <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {rest.map((p, i) => (
-          <Reveal key={p.slug} delay={(i % 3) * 0.08} className="h-full">
-            <Card project={p} />
-          </Reveal>
-        ))}
-      </div>
+      {rest.length > 0 && <ProjectGrid projects={rest} className="mt-6" />}
+
+      {hidden > 0 && (
+        <Reveal className="mt-12 flex flex-col items-center gap-4 text-center">
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-faint">
+            Showing {rest.length + 1} of {projects.length} projects
+          </p>
+          <Link
+            href="/projects"
+            className="group/all inline-flex items-center gap-2.5 rounded-full border border-line bg-white/5 px-7 py-3.5 text-sm font-semibold transition-colors hover:border-cyan/60 hover:bg-cyan/10"
+          >
+            View all projects
+            <ArrowRight className="transition-transform group-hover/all:translate-x-1" />
+          </Link>
+        </Reveal>
+      )}
     </section>
   );
 }
