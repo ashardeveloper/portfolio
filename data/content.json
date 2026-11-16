@@ -915,32 +915,6 @@
         "Add screenshots (home, listing detail, new listing, auth)",
         "Add problem, solution and engineering notes"
       ]
-    },
-    {
-      "id": "0d9085f3",
-      "slug": "new-project-0d90",
-      "published": false,
-      "flagship": false,
-      "title": "New project",
-      "subtitle": "",
-      "oneLiner": "",
-      "year": "2026",
-      "github": "",
-      "live": "",
-      "accent": {
-        "from": "#8b5cf6",
-        "to": "#22d3ee"
-      },
-      "problem": "",
-      "solution": "",
-      "engineering": [],
-      "features": [],
-      "apps": [],
-      "stack": [],
-      "cardStack": [],
-      "screenshots": [],
-      "note": "",
-      "todos": []
     }
   ]
 }
