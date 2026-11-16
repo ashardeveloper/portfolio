@@ -1,5 +1,6 @@
 import { About } from "@/components/About";
 import { Contact } from "@/components/Contact";
+import { mailConfigured } from "@/lib/mail";
 import { Experience } from "@/components/Experience";
 import { Hero } from "@/components/Hero";
 import { Projects } from "@/components/Projects";
@@ -24,7 +25,7 @@ export default async function Home() {
         />
       )}
       {sections.projects.visible && <Projects projects={visibleProjects(content)} section={sections.projects} />}
-      {sections.contact.visible && <Contact profile={profile} section={sections.contact} />}
+      {sections.contact.visible && <Contact profile={profile} section={sections.contact} canSend={mailConfigured()} />}
     </>
   );
 }

@@ -24,7 +24,7 @@ The portfolio of a Full Stack Developer and LLM Engineer, built as a real produc
 | Experience | A timeline of roles with highlights, tech stack and key metrics |
 | Projects | Cards that tilt towards the cursor, with one project featured as the flagship |
 | Case studies | A page per project: problem, solution, engineering notes, features, stack, and a screenshot gallery with a full-screen lightbox |
-| Contact | A form that opens the visitor's email app with the message filled in |
+| Contact | A form that emails the message straight to my inbox, with the visitor set as the reply-to address |
 
 Supporting details:
 
@@ -92,6 +92,7 @@ Browser ── /admin ── server actions ─┘   (Zod schema)  └─ JSON f
 - Upload paths are restricted to a fixed pattern, which rules out path traversal.
 - Database queries are parameterised, and all secrets live in environment variables.
 - The admin is excluded from search engines.
+- The contact form validates on the server, strips line breaks from header fields, limits each visitor to 3 messages per 10 minutes, and uses a hidden honeypot field to drop bot submissions.
 
 ## Tech stack
 
@@ -103,6 +104,7 @@ Browser ── /admin ── server actions ─┘   (Zod schema)  └─ JSON f
 | Animation | Framer Motion, Lenis |
 | 3D | Three.js with @react-three/fiber |
 | Data | MySQL (mysql2), Zod |
+| Email | Nodemailer over SMTP |
 | Hosting | Hostinger Node.js web app |
 
 ## Run it locally
@@ -138,6 +140,18 @@ The site runs on any Node.js host. To use MySQL, set these environment variables
 | `DB_PASSWORD` | Database password |
 | `DB_NAME` | Database name |
 | `NEXT_PUBLIC_SITE_URL` | The public address of the site, read at build time |
+
+For the contact form to send email, also set:
+
+| Variable | Value |
+|---|---|
+| `SMTP_HOST` | Mail server, such as `smtp.gmail.com` |
+| `SMTP_PORT` | `465` |
+| `SMTP_USER` | The mailbox that sends the messages |
+| `SMTP_PASS` | That mailbox's password (for Gmail, an app password) |
+| `CONTACT_TO` | Where messages are delivered; defaults to the email in the site profile |
+
+Without the `SMTP_*` variables the form falls back to opening the visitor's email app.
 
 On first start the tables are created and the content from `data/content.json` is copied in. From then on the database is the source of truth, and edits are made in the live dashboard.
 
